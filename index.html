@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Machine</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery-all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-container-windows">
+        <div class="case-window-app">
+            <div class="container-app">
+                <div class="case-app case-app-browser">
+                    <img src="img/icon-browser.svg">
+                    <p>Chroma</p>
+                </div>
+                <div class="case-app case-app-fichier">
+                    <img src="img/Fichier_icon.png">
+                    <p>Users</p>
+                </div>
+                <div class="case-app case-app-jeu">
+                    <img src="img/icon-game.svg">
+                    <p>Jeu</p>
+                </div>
+                <div class="case-app case-app-mp3">
+                    <img src="img/icon-mp3.svg">
+                    <p>MP3</p>
+                </div>
+                <div class="case-app case-app-photo">
+                    <img src="img/icon-photo.svg">
+                    <p>photo</p>
+                </div>
+            </div>
+        </div>
+        <div class="case-window-widget">
+            <div class="window-widget">
+                <textarea class="to-do-list" spellcheck="false" name="note" rows="5"
+                    cols="33">N'oubliez pas !</textarea>
+            </div>
+        </div>
+        <div class="case-window-bar">
+            <div id="window-bar">
+                <div class="main-bar">
+                    <div class="start"></div>
+                    <div class="search"></div>
+                </div>
+                <div class="notification-bar">
+                    <div class="time"></div>
+                    <div class="date"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" style="display: none;">
+        <div id="game-container"></div>
+    </div>
+    <div class="overlay" style="display: none;">
+        <div id="gallery-container"></div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
